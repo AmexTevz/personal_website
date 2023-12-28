@@ -68,7 +68,7 @@
     font-size: 30px;
   }
   .header {
-    background-attachment:scroll;
+    background-attachment:fixed;
   }
   .background {
     background-size: cover !important;
