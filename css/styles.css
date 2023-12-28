@@ -64,19 +64,19 @@
 }
 
 @media (max-width: 767px) {
-  .header .social i {
+  .header i {
     font-size: 30px;
   }
 
-  .header .services{
+  .header {
     background-attachment:scroll;
   }
-  .background .services {
+  .background {
     background-size: cover !important;
     max-height: 100vh;
     background-position: center top !important;
 }
-.site-title .services {
+.site-title {
     font-size: 10vw;
 }
 
