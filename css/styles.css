@@ -7,21 +7,6 @@
   -o-background-size: cover;
 }
 
-header:after{
-  content:"";
-  position:fixed; /* stretch a fixed position to the whole screen */
-  top:0;
-  height:100vh; /* fix for mobile browser address bar appearing disappearing */
-  left:0;
-  right:0;
-  z-index:-1; /* needed to keep in the background */
-  background: #151515 url("../images/intro-bg.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .header::after {
   content: "";
   position: absolute;
@@ -82,8 +67,9 @@ header:after{
   .header .social i {
     font-size: 30px;
   }
-  /* .header {
-    background-attachment:scroll;
+
+  .header {
+    background-attachment:fixed;
   }
   .background {
     background-size: cover !important;
@@ -92,13 +78,16 @@ header:after{
 }
 .site-title {
     font-size: 10vw;
-} */
+}
+
   .header .roles {
     font-size: 18px !important;
   }
+
   .about-content {
     flex-direction: column;
   }
+
   .stats .stat {
     border-right: 0 !important;
     margin-bottom: 40px;
