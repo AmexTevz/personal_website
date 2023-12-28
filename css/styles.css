@@ -1,11 +1,10 @@
 .header {
   background: #151515 url("../images/intro-bg.jpg") no-repeat center center;
-  /* background-size: cover; */
+  background-size: cover;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: 100vmax 100vmax;
 }
 
 .header::after {
@@ -64,13 +63,21 @@
   z-index: 10;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .header .social i {
     font-size: 30px;
   }
   .header {
     background-attachment:scroll;
   }
+  header.background {
+    background-size: cover !important;
+    max-height: 100vh;
+    background-position: center top !important;
+}
+.site-title {
+    font-size: 10vw;
+}
   .header .roles {
     font-size: 18px !important;
   }
