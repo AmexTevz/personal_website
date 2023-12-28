@@ -72,7 +72,6 @@
     background-attachment:scroll;
   }
   .background {
-    position: fixed;
     background-size: cover !important;
     max-height: 100vh;
     background-position: center top !important;
@@ -99,4 +98,17 @@
     border-bottom: var(--bs-dark) solid 1px;
     padding-bottom: 20px;
   }
+}
+
+.slide {
+width: 90%;
+height: 70%;
+margin: 0 auto;
+
+}
+
+.carousel-indicators {
+  position:absolute;
+  justify-content: top;
+  bottom: 85%;
 }
