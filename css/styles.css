@@ -101,9 +101,10 @@
 }
 
 .slide {
-width: 90%;
-height: 70%;
+width: 95%;
+height: 90%;
 margin: 0 auto;
+
 
 }
 
@@ -112,3 +113,4 @@ margin: 0 auto;
   justify-content: top;
   bottom: 85%;
 }
+
