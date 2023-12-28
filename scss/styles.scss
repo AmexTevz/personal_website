@@ -69,6 +69,18 @@
     font-size: 30px;
   }
 
+  .header {
+    background-attachment:scroll;
+  }
+  .background {
+    background-size: cover !important;
+    max-height: 100vh;
+    background-position: center top !important;
+}
+.site-title {
+    font-size: 10vw;
+}
+
   .header .roles {
     font-size: 18px !important;
   }
