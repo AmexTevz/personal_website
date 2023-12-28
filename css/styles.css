@@ -72,6 +72,7 @@
     background-attachment:scroll;
   }
   .background {
+    position: fixed;
     background-size: cover !important;
     max-height: 100vh;
     background-position: center top !important;
