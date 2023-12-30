@@ -12,4 +12,4 @@ This is a dark-light contrast website for some of my projects. It includes a bit
 - Lightbox models for projects
 - Font awesome icons
 
--
+
