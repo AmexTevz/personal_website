@@ -1,15 +1,11 @@
 # Portfolio Website
 
-This is a dark-light contrast website for some of my projects. It includes a bit of custom JavaScript for the typewriter effect and uses a script called "Lightbox" for the project models.
+Personal site for Amiran Tevzadze, a senior software QA engineer. One page, built with Bootstrap 5, with a hero, project write-ups, and a Netlify contact form.
 
 ## Features
 
-- Dark and light contrast
-- Responsive design
-- Full height header/hero
-- Background image overlays
-- Typewriter effect in header
-- Lightbox models for projects
-- Font awesome icons
-
-
+- Dark and light sections
+- Responsive layout with a sticky navigation bar
+- Project summaries in HTML, with links to public GitHub samples
+- Downloadable resume
+- Contact form handled by Netlify
